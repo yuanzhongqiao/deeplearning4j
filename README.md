@@ -1,38 +1,41 @@
-<p align="center">
-  <img src="https://www.zeljkoobrenovic.com/tools/tech/images/eclipse_deeplearning4j.png">
+<div class="Box-sc-g0xbh4-0 QkQOb js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p align="center" dir="auto">
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/c52522e1e9715d624b1d81ec374ea1ec79bb4805fb60d3ee2e8cd9f44bc4919f/68747470733a2f2f7777772e7a656c6a6b6f6f6272656e6f7669632e636f6d2f746f6f6c732f746563682f696d616765732f65636c697073655f646565706c6561726e696e67346a2e706e67"><img src="https://camo.githubusercontent.com/c52522e1e9715d624b1d81ec374ea1ec79bb4805fb60d3ee2e8cd9f44bc4919f/68747470733a2f2f7777772e7a656c6a6b6f6f6272656e6f7669632e636f6d2f746f6f6c732f746563682f696d616765732f65636c697073655f646565706c6561726e696e67346a2e706e67" data-canonical-src="https://www.zeljkoobrenovic.com/tools/tech/images/eclipse_deeplearning4j.png" style="max-width: 100%;"></a>
 </p>
-
- [![Documentation](https://img.shields.io/badge/user-documentation-blue.svg)](https://deeplearning4j.konduit.ai/)
-[![Get help at the community forum](https://img.shields.io/badge/Get%20Help-Community%20Forum-blue)](https://community.konduit.ai/)
-[![javadoc](https://javadoc.io/badge2/org.deeplearning4j/deeplearning4j-nn/DL4J%20API%20Doc.svg)](https://javadoc.io/doc/org.deeplearning4j/deeplearning4j-nn)
-[![javadoc](https://javadoc.io/badge2/org.nd4j/nd4j-api/ND4J%20API%20Doc.svg)](https://javadoc.io/doc/org.nd4j/nd4j-api)
-[![License](https://img.shields.io/github/license/eclipse/deeplearning4j)](LICENSE)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/eclipse/deeplearning4j)
-
-
-The **[Eclipse Deeplearning4J](https://deeplearning4j.konduit.ai/)** (DL4J) ecosystem is a set of projects intended to support all the needs of a JVM based deep learning application. This means starting with the raw data, loading and preprocessing it from wherever and whatever format it is in to building and tuning a wide variety of simple and complex deep learning networks. 
-
-Because Deeplearning4J runs on the JVM you can use it with a wide variety of JVM based languages other than Java, like Scala, Kotlin, Clojure and many more. 
-
-The DL4J stack comprises of:
-- **DL4J**: High level API to build MultiLayerNetworks and ComputationGraphs with a variety of layers, including custom ones. Supports importing Keras models from h5, including tf.keras models (as of 1.0.0-beta7) and also supports distributed training on Apache Spark
-- **ND4J**: General purpose linear algebra library with over 500 mathematical, linear algebra and deep learning operations. ND4J is based on the highly-optimized C++ codebase LibND4J that provides CPU (AVX2/512) and GPU (CUDA) support and acceleration by libraries such as OpenBLAS, OneDNN (MKL-DNN), cuDNN, cuBLAS, etc
-- **SameDiff** : Part of the ND4J library, SameDiff is our automatic differentiation / deep learning framework. SameDiff uses a graph-based (define then run) approach, similar to TensorFlow graph mode. Eager graph (TensorFlow 2.x eager/PyTorch) graph execution is planned. SameDiff supports importing TensorFlow frozen model format .pb (protobuf) models. Import for ONNX, TensorFlow SavedModel and Keras models are planned. Deeplearning4j also has full SameDiff support for easily writing custom layers and loss functions.
-- **DataVec**: ETL for machine learning data in a wide variety of formats and files (HDFS, Spark, Images, Video, Audio, CSV, Excel etc)
-- **LibND4J** : C++ library that underpins everything. For more information on how the JVM acceses native arrays and operations refer to [JavaCPP](https://github.com/bytedeco/javacpp)
-- **Python4J**: Bundled cpython execution for the JVM
-
-All projects in the DL4J ecosystem support Windows, Linux and macOS. Hardware support includes CUDA GPUs (10.0, 10.1, 10.2 except OSX), x86 CPU (x86_64, avx2, avx512), ARM CPU (arm, arm64, armhf) and PowerPC (ppc64le).
-
-## Community Support
-For support for the project, please go over to https://community.konduit.ai/
-
-## Using Eclipse Deeplearning4J in your project
-
-Deeplearning4J has quite a few dependencies. For this reason we only support usage with a build tool.
-
-```xml
-<dependencies>
+<p dir="auto"><a href="https://deeplearning4j.konduit.ai/" rel="nofollow"><img src="https://camo.githubusercontent.com/c52924756ab58140915a47dc3cc1bf46d566a4f812a75eac0325e8ad6f24c52d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f757365722d646f63756d656e746174696f6e2d626c75652e737667" alt="文档" data-canonical-src="https://img.shields.io/badge/user-documentation-blue.svg" style="max-width: 100%;" _mstalt="234962" _msthash="295"></a>
+<a href="https://community.konduit.ai/" rel="nofollow"><img src="https://camo.githubusercontent.com/e628df6110289c2b6dac46c7838558b85522187e22b6165f2c1e990e27177af5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f47657425323048656c702d436f6d6d756e697479253230466f72756d2d626c7565" alt="在社区论坛中获取帮助" data-canonical-src="https://img.shields.io/badge/Get%20Help-Community%20Forum-blue" style="max-width: 100%;" _mstalt="720577" _msthash="296"></a>
+<a href="https://javadoc.io/doc/org.deeplearning4j/deeplearning4j-nn" rel="nofollow"><img src="https://camo.githubusercontent.com/6e2f026827f284da1cc431b14761ad969ce135ddde565fceefca84277c674129/68747470733a2f2f6a617661646f632e696f2f6261646765322f6f72672e646565706c6561726e696e67346a2f646565706c6561726e696e67346a2d6e6e2f444c344a253230415049253230446f632e737667" alt="Javadoc" data-canonical-src="https://javadoc.io/badge2/org.deeplearning4j/deeplearning4j-nn/DL4J%20API%20Doc.svg" style="max-width: 100%;" _mstalt="94497" _msthash="297"></a>
+<a href="https://javadoc.io/doc/org.nd4j/nd4j-api" rel="nofollow"><img src="https://camo.githubusercontent.com/8b7c209a17085c5d436eb76737565fd8b2843acde6349ae64406a93b1fa2d76b/68747470733a2f2f6a617661646f632e696f2f6261646765322f6f72672e6e64346a2f6e64346a2d6170692f4e44344a253230415049253230446f632e737667" alt="Javadoc" data-canonical-src="https://javadoc.io/badge2/org.nd4j/nd4j-api/ND4J%20API%20Doc.svg" style="max-width: 100%;" _mstalt="94497" _msthash="298"></a>
+<a href="/deeplearning4j/deeplearning4j/blob/master/LICENSE"><img src="https://camo.githubusercontent.com/c16761bceb105fd4d3f9d440a0d25d2e783d658ba8e8883d9e53dfef6b1ddd4c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f65636c697073652f646565706c6561726e696e67346a" alt="许可证" data-canonical-src="https://img.shields.io/github/license/eclipse/deeplearning4j" style="max-width: 100%;" _mstalt="93288" _msthash="299"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/1b6d60cf83ca254f260910ba1d35d140bf50b5518100cc341caaf27fb9f904c4/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f636f6d6d69742d61637469766974792f6d2f65636c697073652f646565706c6561726e696e67346a"><img src="https://camo.githubusercontent.com/1b6d60cf83ca254f260910ba1d35d140bf50b5518100cc341caaf27fb9f904c4/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f636f6d6d69742d61637469766974792f6d2f65636c697073652f646565706c6561726e696e67346a" alt="GitHub 提交活动" data-canonical-src="https://img.shields.io/github/commit-activity/m/eclipse/deeplearning4j" style="max-width: 100%;" _mstalt="461578" _msthash="300"></a></p>
+<p dir="auto" _msttexthash="2305268641" _msthash="301"><strong _istranslated="1"><a href="https://deeplearning4j.konduit.ai/" rel="nofollow" _istranslated="1">Eclipse Deeplearning4J</a></strong> （DL4J） 生态系统是一组项目，旨在支持基于 JVM 的深度学习应用程序的所有需求。这意味着从原始数据开始，从任何位置和任何格式加载和预处理数据，以构建和调整各种简单和复杂的深度学习网络。</p>
+<p dir="auto" _msttexthash="584548094" _msthash="302">由于Deeplearning4J运行在JVM上，因此您可以将其与除Java以外的各种基于JVM的语言一起使用，例如Scala、Kotlin、Clojure等。</p>
+<p dir="auto" _msttexthash="35548487" _msthash="303">DL4J 协议栈包括：</p>
+<ul dir="auto">
+<li _msttexthash="1543072986" _msthash="304"><strong _istranslated="1">DL4J</strong>：高级API，用于构建具有各种层（包括自定义层）的MultiLayerNetworks和ComputationGraphs。支持从 h5 导入 Keras 模型，包括 tf.keras 模型（截至 1.0.0-beta7），还支持在 Apache Spark 上进行分布式训练</li>
+<li _msttexthash="1568102185" _msthash="305"><strong _istranslated="1">ND4J</strong>：通用线性代数库，具有 500 多种数学、线性代数和深度学习运算。ND4J 基于高度优化的 C++ 代码库 LibND4J，通过 OpenBLAS、OneDNN （MKL-DNN）、cuDNN、cuBLAS 等库提供 CPU （AVX2/512） 和 GPU （CUDA） 支持和加速</li>
+<li _msttexthash="5057701363" _msthash="306"><strong _istranslated="1">SameDiff</strong> ： 作为 ND4J 库的一部分，SameDiff 是我们的自动微分/深度学习框架。SameDiff 使用基于图形的 （define then run） 方法，类似于 TensorFlow 图形模式。Eager graph （TensorFlow 2.x eager/PyTorch） 图形执行已计划。SameDiff 支持导入 TensorFlow 冻结模型格式 .pb （protobuf） 模型。计划导入 ONNX、TensorFlow SavedModel 和 Keras 模型。Deeplearning4j 还完全支持 SameDiff，可以轻松编写自定义层和损失函数。</li>
+<li _msttexthash="480318215" _msthash="307"><strong _istranslated="1">DataVec</strong>：ETL 适用于各种格式和文件（HDFS、Spark、图像、视频、音频、CSV、Excel 等）的机器学习数据</li>
+<li _msttexthash="368926662" _msthash="308"><strong _istranslated="1">LibND4J</strong> ： 支撑一切的 C++ 库。有关 JVM 如何访问本机数组和操作的更多信息，请参阅 <a href="https://github.com/bytedeco/javacpp" _istranslated="1">JavaCPP</a></li>
+<li _msttexthash="73774948" _msthash="309"><strong _istranslated="1">Python4J</strong>：用于 JVM 的捆绑 cpython 执行</li>
+</ul>
+<p dir="auto" _msttexthash="1229283471" _msthash="310">DL4J 生态系统中的所有项目都支持 Windows、Linux 和 macOS。硬件支持包括 CUDA GPU（10.0、10.1、10.2，OSX 除外）、x86 CPU（x86_64、avx2、avx512）、ARM CPU（arm、arm64、armhf）和 PowerPC （ppc64le）。</p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="11365783" _msthash="311">社区支持</h2><a id="user-content-community-support" class="anchor" aria-label="永久链接： 社区支持" href="#community-support" _mstaria-label="702663" _msthash="312"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="70183815" _msthash="313">有关该项目的支持，请访问 <a href="https://community.konduit.ai/" rel="nofollow" _istranslated="1">https://community.konduit.ai/</a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="20456189" _msthash="314">在项目中使用 Eclipse Deeplearning4J</h2><a id="user-content-using-eclipse-deeplearning4j-in-your-project" class="anchor" aria-label="永久链接：在项目中使用 Eclipse Deeplearning4J" href="#using-eclipse-deeplearning4j-in-your-project" _mstaria-label="2044328" _msthash="315"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="274796639" _msthash="316">Deeplearning4J 有很多依赖项。因此，我们只支持与构建工具一起使用。</p>
+<div class="highlight highlight-text-xml notranslate position-relative overflow-auto" dir="auto"><pre>&lt;<span class="pl-ent">dependencies</span>&gt;
+  &lt;<span class="pl-ent">dependency</span>&gt;
+      &lt;<span class="pl-ent">groupId</span>&gt;org.deeplearning4j&lt;/<span class="pl-ent">groupId</span>&gt;
+      &lt;<span class="pl-ent">artifactId</span>&gt;deeplearning4j-core&lt;/<span class="pl-ent">artifactId</span>&gt;
+      &lt;<span class="pl-ent">version</span>&gt;1.0.0-M2.1&lt;/<span class="pl-ent">version</span>&gt;
+  &lt;/<span class="pl-ent">dependency</span>&gt;
+  &lt;<span class="pl-ent">dependency</span>&gt;
+      &lt;<span class="pl-ent">groupId</span>&gt;org.nd4j&lt;/<span class="pl-ent">groupId</span>&gt;
+      &lt;<span class="pl-ent">artifactId</span>&gt;nd4j-native-platform&lt;/<span class="pl-ent">artifactId</span>&gt;
+      &lt;<span class="pl-ent">version</span>&gt;1.0.0-M2.1&lt;/<span class="pl-ent">version</span>&gt;
+  &lt;/<span class="pl-ent">dependency</span>&gt;
+&lt;/<span class="pl-ent">dependencies</span>&gt;</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="<dependencies>
   <dependency>
       <groupId>org.deeplearning4j</groupId>
       <artifactId>deeplearning4j-core</artifactId>
@@ -43,68 +46,76 @@ Deeplearning4J has quite a few dependencies. For this reason we only support usa
       <artifactId>nd4j-native-platform</artifactId>
       <version>1.0.0-M2.1</version>
   </dependency>
-</dependencies>
-```
+</dependencies>" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto" _msttexthash="1053267007" _msthash="317">将这些依赖项添加到pom.xml文件中，以便将 Deeplearning4J 与 CPU 后端结合使用。如果您想从头开始新的Maven项目，<a href="https://github.com/eclipse/deeplearning4j-examples" _istranslated="1">示例存储库中提供了</a>完整的独立项目示例。</p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="11310897" _msthash="318">代码示例</h2><a id="user-content-code-samples" class="anchor" aria-label="永久链接： 代码示例" href="#code-samples" _mstaria-label="474721" _msthash="319"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="896477062" _msthash="320">由于 DL4J 是一个多方面的项目
+对于 Mono 存储库中的多个模块，我们建议查看这些示例
+了解不同模块的不同用法。下面
+我们将链接到每个模块的示例。</p>
+<ol dir="auto">
+<li _msttexthash="15973711" _msthash="321">ND4J：<a href="https://github.com/deeplearning4j/deeplearning4j-examples/tree/master/nd4j-ndarray-examples" _istranslated="1">https://github.com/deeplearning4j/deeplearning4j-examples/tree/master/nd4j-ndarray-examples</a></li>
+<li _msttexthash="14945281" _msthash="322">DL4J： <a href="https://github.com/deeplearning4j/deeplearning4j-examples/tree/master/dl4j-examples" _istranslated="1">https://github.com/deeplearning4j/deeplearning4j-examples/tree/master/dl4j-examples</a></li>
+<li _msttexthash="19438224" _msthash="323">Samediff： <a href="https://github.com/deeplearning4j/deeplearning4j-examples/tree/master/samediff-examples" _istranslated="1">https://github.com/deeplearning4j/deeplearning4j-examples/tree/master/samediff-examples</a></li>
+<li _msttexthash="19114433" _msthash="324">Datavec： <a href="https://github.com/deeplearning4j/deeplearning4j-examples/tree/master/data-pipeline-examples" _istranslated="1">https://github.com/deeplearning4j/deeplearning4j-examples/tree/master/data-pipeline-examples</a></li>
+<li _msttexthash="16722290" _msthash="325">Python4j：<a href="https://deeplearning4j.konduit.ai/python4j/tutorials/quickstart" rel="nofollow" _istranslated="1">https://deeplearning4j.konduit.ai/python4j/tutorials/quickstart</a></li>
+</ol>
+<p dir="auto" _msttexthash="176685223" _msthash="326">对于希望能够从其他框架运行模型的用户，请参阅：</p>
+<ol dir="auto">
+<li _msttexthash="15964715" _msthash="327">Onnx： <a href="https://github.com/deeplearning4j/deeplearning4j-examples/tree/master/onnx-import-examples" _istranslated="1">https://github.com/deeplearning4j/deeplearning4j-examples/tree/master/onnx-import-examples</a></li>
+<li _msttexthash="29706742" _msthash="328">Tensorflow/Keras：<a href="https://github.com/deeplearning4j/deeplearning4j-examples/tree/master/tensorflow-keras-import-examples" _istranslated="1">https://github.com/deeplearning4j/deeplearning4j-examples/tree/master/tensorflow-keras-import-examples</a></li>
+</ol>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="26376116" _msthash="329">文档、指南和教程</h2><a id="user-content-documentation-guides-and-tutorials" class="anchor" aria-label="永久链接：文档、指南和教程" href="#documentation-guides-and-tutorials" _mstaria-label="1548742" _msthash="330"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="407127110" _msthash="331">您可以在 <a href="http://deeplearning4j.konduit.ai/" rel="nofollow" _istranslated="1">http://deeplearning4j.konduit.ai/</a> 上找到 Deeplearning4J 及其生态系统的其他库的官方文档。</p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="34010834" _msthash="332">想要一些示例吗？</h2><a id="user-content-want-some-examples" class="anchor" aria-label="永久链接：需要一些示例吗？" href="#want-some-examples" _mstaria-label="720226" _msthash="333"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="150601659" _msthash="334">我们有单独的存储库，其中包含各种可用的示例：<a href="https://github.com/eclipse/deeplearning4j-examples" _istranslated="1">https://github.com/eclipse/deeplearning4j-examples</a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="11040770" _msthash="335">从源构建</h2><a id="user-content-building-from-source" class="anchor" aria-label="永久链接：从源码构建" href="#building-from-source" _mstaria-label="783692" _msthash="336"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="2566630339" _msthash="337">最好使用官方的预编译版本（见上文）。但是，如果您想从源代码构建，请首先在此处查看从源代码构建的先决条件：<a href="https://deeplearning4j.konduit.ai/multi-project/how-to-guides/build-from-source" rel="nofollow" _istranslated="1">https://deeplearning4j.konduit.ai/multi-project/how-to-guides/build-from-source</a>。可以在那里找到 cpu 和 gpu 构建的各种说明。请访问我们的<a href="https://community.konduit.ai/" rel="nofollow" _istranslated="1">论坛</a>以获取进一步的帮助。</p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="14906177" _msthash="338">运行测试</h2><a id="user-content-running-tests" class="anchor" aria-label="永久链接：运行测试" href="#running-tests" _mstaria-label="529360" _msthash="339"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="536109314" _msthash="340">为了运行测试，请参阅 platform-tests 模块。
+此模块仅在 jdk 11 上运行（主要是由于 spark 和旧版 scala + JDK 17 的错误）</p>
+<p dir="auto" _msttexthash="334067331" _msthash="341">platform-tests 允许您为不同的后端运行 DL4j。
+您可以在命令行中指定一些属性：</p>
+<ol dir="auto">
+<li _msttexthash="475890480" _msthash="342">backend.artifactId：默认为 nd4j-native，将在 CPU 上运行测试，你可以指定其他后端，如 nd4j-cuda-11.6</li>
+<li _msttexthash="237747783" _msthash="343">dl4j.version：您可以更改运行测试所针对的 dl4j 版本。默认为 1.0.0-SNAPSHOT。</li>
+</ol>
+<p dir="auto" _msttexthash="59805577" _msthash="344">更多参数可以在这里找到：</p><div class="Box Box--condensed my-2">
+  <div class="Box-header f6">
+    <p class="mb-0 text-bold">
+      <a href="https://github.com/deeplearning4j/deeplearning4j/blob/c1bf8717e4839c8930e9c43183bf7b94d0cf84dc/platform-tests/pom.xml#L47" _msttexthash="1200550" _msthash="345">deeplearning4j/platform-tests/pom.xml</a>
+    </p>
+    <p class="mb-0 color-fg-muted"><font _mstmutation="1" _msttexthash="9934093" _msthash="346">47 号线
+ 在</font><a data-pjax="true" class="commit-tease-sha Link--inTextBlock" href="/deeplearning4j/deeplearning4j/commit/c1bf8717e4839c8930e9c43183bf7b94d0cf84dc" _msttexthash="63700" _msthash="347">c1bf871</a>
+    </p>
+  </div>
+  <div itemprop="text" class="Box-body p-0 blob-wrapper blob-wrapper-embedded data">
+    <table class="highlight tab-size mb-0 js-file-line-container" data-tab-size="8" data-paste-markdown-skip="">
 
-Add these dependencies to your pom.xml file to use Deeplearning4J with the CPU backend. A full standalone project example is [available in the example repository](https://github.com/eclipse/deeplearning4j-examples), if you want to start a new Maven project from scratch.
-
-## Code samples
-
-Due to DL4J being a multi faceted project
-with several modules in the mono repo, we recommend looking at the examples
-for a taste of different usages of the different modules. Below
-we'll link to examples for each module.
-
-1. ND4J: https://github.com/deeplearning4j/deeplearning4j-examples/tree/master/nd4j-ndarray-examples
-2. DL4J: https://github.com/deeplearning4j/deeplearning4j-examples/tree/master/dl4j-examples
-3. Samediff: https://github.com/deeplearning4j/deeplearning4j-examples/tree/master/samediff-examples
-4. Datavec: https://github.com/deeplearning4j/deeplearning4j-examples/tree/master/data-pipeline-examples
-5. Python4j: https://deeplearning4j.konduit.ai/python4j/tutorials/quickstart
-
-
-For users looking for being able to run models from other frameworks, see:
-1. Onnx: https://github.com/deeplearning4j/deeplearning4j-examples/tree/master/onnx-import-examples
-2. Tensorflow/Keras: https://github.com/deeplearning4j/deeplearning4j-examples/tree/master/tensorflow-keras-import-examples
-
-
-## Documentation, Guides and Tutorials
-You can find the official documentation for Deeplearning4J and the other libraries of its ecosystem at http://deeplearning4j.konduit.ai/.
-
-## Want some examples?
-We have separate repository with various examples available: https://github.com/eclipse/deeplearning4j-examples
-
-## Building from source
-It is preferred to use the official pre-compiled releases (see above). But if you want to build from source, first take a look at the prerequisites for building from source here: https://deeplearning4j.konduit.ai/multi-project/how-to-guides/build-from-source. Various instructions for cpu and gpu builds can be found there. Please go to our [forums](https://community.konduit.ai/) for further help.
-
-
-## Running tests
-
-In order to run tests, please see the platform-tests module.
-This module only runs on jdk 11 (mostly due to spark and bugs with older scala versions + JDK 17)
-
-platform-tests allows you to run dl4j for different backends.
-There are a few properties you can specify on the command line:
-1. backend.artifactId: this defaults to nd4j-native and will run tests on cpu,you can specify other backends like nd4j-cuda-11.6
-2. dl4j.version: You can change the dl4j version that the tests run against. This defaults to 1.0.0-SNAPSHOT.
-
-More parameters can be found here:
-https://github.com/deeplearning4j/deeplearning4j/blob/c1bf8717e4839c8930e9c43183bf7b94d0cf84dc/platform-tests/pom.xml#L47
-
-
-
-
-
-## Running project in Intellij IDEA:
-1. Ensure you follow https://stackoverflow.com/questions/45370178/exporting-a-package-from-system-module-is-not-allowed-with-release on jdk 9 or later
-2. Ignore all nd4j-shade submodules. Right click on each folder and click: Maven -> Ignore project
-
-
-## License
-
-[Apache License 2.0](LICENSE)
-
-
-## Commercial Support
-Deeplearning4J is actively developed by the team at [Konduit K.K.](https://konduit.ai). 
-
-[If you need any commercial support feel free to reach out to us. at [support@konduit.ai](mailto:support@konduit.ai)  
+        <tbody><tr class="border-0">
+          <td id="L47" class="blob-num border-0 px-3 py-0 color-bg-default" data-line-number="47"></td>
+          <td id="LC47" class="blob-code border-0 px-3 py-0 color-bg-default blob-code-inner js-file-line"> &lt;<font _mstmutation="1" _msttexthash="2933398" _msthash="348"><span class="pl-ent" _mstmutation="1" _istranslated="1">platform.classifier</span>&gt;<span class="pl-smi" _mstmutation="1" _istranslated="1">${javacpp.platform}</span>&lt;/<span class="pl-ent" _mstmutation="1" _istranslated="1">platform.classifier</span>&gt;</font></td>
+        </tr>
+    </tbody></table>
+  </div>
+</div>
+<p></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="69845399" _msthash="349">在 Intellij IDEA 中运行项目：</h2><a id="user-content-running-project-in-intellij-idea" class="anchor" aria-label="永久链接：在 Intellij IDEA 中运行项目：" href="#running-project-in-intellij-idea" _mstaria-label="1272375" _msthash="350"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li _msttexthash="69520776" _msthash="351">确保您遵循 jdk 9 或更高版本的 <a href="https://stackoverflow.com/questions/45370178/exporting-a-package-from-system-module-is-not-allowed-with-release" rel="nofollow" _istranslated="1">https://stackoverflow.com/questions/45370178/exporting-a-package-from-system-module-is-not-allowed-with-release</a></li>
+<li _msttexthash="303120090" _msthash="352">忽略所有 nd4j-shade 子模块。右键单击每个文件夹，然后单击：Maven -&gt; 忽略项目</li>
+</ol>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="9675445" _msthash="353">许可证</h2><a id="user-content-license" class="anchor" aria-label="永久链接：许可证" href="#license" _mstaria-label="331903" _msthash="354"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="/deeplearning4j/deeplearning4j/blob/master/LICENSE" _msttexthash="17036149" _msthash="355">Apache 许可证 2.0</a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="10391407" _msthash="356">商业支持</h2><a id="user-content-commercial-support" class="anchor" aria-label="永久链接： Commercial Support" href="#commercial-support" _mstaria-label="732862" _msthash="357"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="105731314" _msthash="358">Deeplearning4J 由 <a href="https://konduit.ai" rel="nofollow" _istranslated="1">Konduit K.K.</a> 的团队积极开发。</p>
+<p dir="auto" _msttexthash="138432632" _msthash="359">[如果您需要任何商业支持，请随时与我们联系。<a href="mailto:support@konduit.ai" _istranslated="1">support@konduit.ai</a></p>
+</article></div>
